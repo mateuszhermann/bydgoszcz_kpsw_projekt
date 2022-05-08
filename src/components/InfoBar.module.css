@@ -1,0 +1,14 @@
+.info-bar{
+    width: 100%;
+    min-height: 30px;
+    background-color: #d5d5d5;
+    text-align: center;
+
+}
+.info-bar p{
+    font-size: 1.3rem;
+color: #714c4c;
+font-weight: bold;
+font-family: "Segoe UI";
+padding:5px 20px;
+}

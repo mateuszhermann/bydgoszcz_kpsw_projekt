@@ -1,0 +1,37 @@
+.hero{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    min-height: calc(100vh - 80px);
+    background-image: url('../assets/home_images/bgImg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__main-img{
+    position: absolute;
+    top:0;
+    left:0;
+    
+}
+.hero__text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    font-size:1.5rem;
+    margin-top: 35px;
+    max-width: 70vw;
+    background-color: #ececec;
+    padding:20px;
+    color:black;
+
+}
+.hero__text strong{
+    font-size: 2.5rem;
+}
+.flag{
+    width: 110px;
+    margin: 30px auto 30px 20%;
+
+}
+.flag img{
+    width: 100%;
+}

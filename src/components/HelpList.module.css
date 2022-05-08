@@ -1,0 +1,21 @@
+.help-list{
+    margin:0;
+    padding:0;
+    list-style: none;
+    width: 100%;
+    /* text-align: center; */
+    background-color: #fff;
+
+}
+.help-list__item{
+    margin-left: 20px;
+    padding:10px 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: start;
+}
+
+.help-list__img{
+    width: 50px;
+}
