@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./LittleCircles.module.css";
-import flags from "../assets/home_images/flags.png";
-import dollar from "../assets/home_images/dollar.png";
-import government from "../assets/home_images/government.png";
-import hearth from "../assets/home_images/hearth.png";
-import ideas from "../assets/home_images/ideas.png";
-import safehouse from "../assets/home_images/safehouse.png";
-import smartphone from "../assets/home_images/smartphone.png";
-import transport from "../assets/home_images/transport.png";
-import uniform from "../assets/home_images/uniform.png";
-import web from "../assets/home_images/web.png";
+import flags from "../assets/home_images/ikonki/pomocdlauchodzcow.svg";
+import dollar from "../assets/home_images/ikonki/dofinansowanie.svg";
+import government from "../assets/home_images/ikonki/pomocurzedowa.svg";
+import hearth from "../assets/home_images/ikonki/zdrowie.svg";
+import ideas from "../assets/home_images/ikonki/rozwojosobiusty.svg";
+import safehouse from "../assets/home_images/ikonki/pomocsocjalna.svg";
+import smartphone from "../assets/home_images/ikonki/helpphone.svg";
+import transport from "../assets/home_images/ikonki/transport.svg";
+import uniform from "../assets/home_images/ikonki/praca.svg";
+import web from "../assets/home_images/ikonki/pomocneaplikacje.svg";
 export default function LittleCircles(props) {
   const images = [
     flags,

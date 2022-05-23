@@ -1,16 +1,21 @@
+
+import style from "./NavItemPc.module.css";
 function NavItemPc(props) {
     let styles={
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
         flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center"
+        
         
     }
-    
+
     return (<li>
-                <div style={styles}>
-                    <img src={props.src} alt={props.alt}/>
-                    {props.children}
+                <div >
+                   <a href={props.href } style={styles}>
+                        <img src={props.src} style={{width: 120}} className={style.itemImg} alt={props.alt}/>
+                        {props.children}
+                    </a>
                 </div>
             </li>)
 }

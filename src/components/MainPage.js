@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Header from "./Header";
 
 import style from "./MainPage.module.css";
-
+import Logo from '../assets/home_images/ikonki/logo.svg';
 
 import LittlenCircles from "./LittleCircles";
 import HeaderPc from "./PcHeader";
@@ -19,7 +19,7 @@ export default function MainPage(props) {
     position: "relative",
     width: widthEndHeight,
     height: widthEndHeight,
-    backgroundColor: "#ac5",
+    
     borderRadius: "50%",
     margin: "500px 200px",
     
@@ -35,7 +35,7 @@ export default function MainPage(props) {
       
         <div ref={divEl} id={styles.parentdiv} style={styles}>
           <LittlenCircles putRef={divEl} windowWidth={props.windowWidth} />
-        
+          <img src={Logo} alt="Logo" />
         </div>   
       
     

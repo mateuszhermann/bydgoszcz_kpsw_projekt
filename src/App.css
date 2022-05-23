@@ -9,7 +9,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  
+  scroll-behavior: smooth;
   align-items: center;
 
 }
