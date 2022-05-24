@@ -22,19 +22,21 @@ export default function HelpList() {
   ];
 
   return (
-    <ul className={styles["help-list"]}>
-      {listItems.map((el, index) => (
-        <Link to={el.path} key={index} className={styles["help-list__link"]}>
-          <li className={styles["help-list__item"]}>
-            <img
-              className={styles["help-list__img"]}
-              src={el.avatar}
-              alt={el.avatar}
-            />
-            <span>{el.text}</span>
-          </li>
-        </Link>
-      ))}
-    </ul>
+    <div className={styles.wrapper}>
+      <ul className={styles["help-list"]}>
+        {listItems.map((el, index) => (
+          <Link to={el.path} key={index} className={styles["help-list__link"]}>
+            <li className={styles["help-list__item"]}>
+              <img
+                className={styles["help-list__img"]}
+                src={el.avatar}
+                alt={el.avatar}
+              />
+              <span>{el.text}</span>
+            </li>
+          </Link>
+        ))}
+      </ul>
+    </div>
   );
 }

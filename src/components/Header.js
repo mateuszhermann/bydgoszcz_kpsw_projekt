@@ -5,15 +5,15 @@ import Logo from "../assets/home_images/ikonki/logo.svg";
 export default function Header() {
   return (
     <header className={styles.header}>
+      <Link to="/contact" className={styles.header_link}>
+        Contact us
+      </Link>
       <Link to="/" className={`${styles.header_link} ${styles.header__logo}`}>
         <img alt="logo" src={Logo} />
       </Link>
-      <Link to="/" className={styles.header_link}>
-        Home
+      <Link to="/info" className={styles.header_link}>
+        Info
       </Link>
-      <p>Info</p>
-      <p>Contact</p>
-      <p>Helpful apps</p>
     </header>
   );
 }
