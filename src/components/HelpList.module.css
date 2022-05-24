@@ -7,6 +7,10 @@
     background-color: #fff;
 
 }
+.help-list__link{
+    text-decoration: none;
+    color: inherit;
+}
 .help-list__item{
     margin-left: 20px;
     padding:10px 0;
