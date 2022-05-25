@@ -11,7 +11,15 @@
   flex-direction: column;
   scroll-behavior: smooth;
   align-items: center;
-
+  
+}
+.fade-enter{
+  opacity: 0;
+  z-index: 1;
+}
+.fade-enter.fade-enter-active{
+  opacity: 1;
+  transition: opacity 250ms ease-in;
 }
 @media screen and (min-width:1024px){
   .App{

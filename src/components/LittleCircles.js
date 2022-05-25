@@ -10,6 +10,7 @@ import smartphone from "../assets/home_images/ikonki/helpphone.svg";
 import transport from "../assets/home_images/ikonki/transport.svg";
 import uniform from "../assets/home_images/ikonki/praca.svg";
 import web from "../assets/home_images/ikonki/pomocneaplikacje.svg";
+import { Link } from "react-router-dom";
 export default function LittleCircles(props) {
   const images = [
     flags,
@@ -18,12 +19,22 @@ export default function LittleCircles(props) {
     hearth,
     safehouse,
     ideas,
-    smartphone,
+
     transport,
     uniform,
-    web,
   ];
-  var div = 360 / 10;
+  const links = [
+    "supportUkraine",
+    "financialSupport",
+    "government",
+    "medicalSupport",
+    "transport",
+    "socialSupport",
+    "selfcare",
+
+    "job",
+  ];
+  var div = 360 / 8;
 
   let radius = 250;
   let circleElements = [];
@@ -40,7 +51,7 @@ export default function LittleCircles(props) {
   // offsetToParentCenter -
   var totalOffset = offsetToParentCenter - offsetToChildCenter;
 
-  for (var i = 1; i <= 10; ++i) {
+  for (var i = 1; i <= 8; ++i) {
     var y = Math.sin(div * i * (Math.PI / 180)) * radius;
     var x = Math.cos(div * i * (Math.PI / 180)) * radius;
     // console.log(y + totalOffset + "px");
@@ -60,9 +71,11 @@ export default function LittleCircles(props) {
   return (
     <>
       {circleElements.map((el, index) => (
-        <div className={styles.div2} style={el.style} key={el.key}>
-          <img className={styles.img} src={images[index - 1]} alt="" />
-        </div>
+        <Link to={`/${links[index - 1]}`} key={el.key}>
+          <div className={styles.div2} style={el.style}>
+            <img className={styles.img} src={images[index - 1]} alt="" />
+          </div>
+        </Link>
       ))}
     </>
   );

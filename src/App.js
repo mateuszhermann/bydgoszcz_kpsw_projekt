@@ -19,6 +19,8 @@ import TransportPc from "./components/subpages/TransportPc";
 import MedicalSupportPc from "./components/subpages/MedicalSupportPc";
 import SupportUkraine from "./components/subpages/SupportUkraine";
 import SupportUkrainePc from "./components/subpages/SupportUkrainePc";
+import About from "./components/subpages/About";
+
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -47,6 +49,7 @@ function App() {
     job: <Job />,
     selfcare: <Selfcare />,
     transport: <Transport />,
+    aboutUs: <About />,
   };
   const pc = {
     home: <MainPage windowWidth={width} />,
@@ -71,7 +74,7 @@ function App() {
         <Route path="/selfcare" element={typeOfScreen.selfcare} />
         <Route path="/transport" element={typeOfScreen.transport} />
         <Route path="/medicalSupport" element={typeOfScreen.medicalSupport} />
-
+        <Route path="/about" element={typeOfScreen.aboutUs} />
         {["/home", "/"].map((path, index) => (
           <Route path={path} element={typeOfScreen.home} key={index} />
         ))}

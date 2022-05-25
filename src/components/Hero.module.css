@@ -13,6 +13,7 @@
     left:0;
     
 }
+
 .hero__text{
     border-radius: 40px;
     border:1px solid #404040;
@@ -36,18 +37,33 @@
 .hero__text p{
     color:#404040;
 }
-.hero__text img{
+.about-us{
     position: absolute;
     bottom: 20px;
     left:50%;
     transform: translateX(-50%);
     width:100px;
 }
+.img-active{
+ bottom: auto;
+ top:20px;
+ width: 150px;   
+}
+.hero__text-active{
+    align-items: center;
+    padding: inherit 20px;
+    justify-items: center;
+    background-color: rgb(154, 117, 117);
+}
+
 .hero__text strong{
     color:#707070;
     display: block;
     font-weight: 400;
     font-size: 2rem;
+}
+#pink{
+    color: #be16ab;
 }
 /* .flag{
     width: 110px;
