@@ -4,7 +4,7 @@ import flag from '../assets/home_images/flag.svg'
 import NavItemPc from './NavItemPc';
 
 import apps from '../assets/home_images/ikonki/pomocneaplikacje.svg'
-import kontakt from '../assets/home_images/ikonki/info.svg'
+import kontakt from '../assets/home_images/ikonki/kontakt.svg'
 import info from '../assets/home_images/ikonki/info.svg'
 import phone from '../assets/home_images/ikonki/helpphone.svg'
 import LogoItem from './LogoItem';
