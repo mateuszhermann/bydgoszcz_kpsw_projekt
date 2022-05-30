@@ -1,0 +1,14 @@
+.main-page-about-us-img{
+    position: absolute;
+    bottom:-80px;
+    width: 100px;
+    left:50%;
+    transform: translateX(-50%);
+    cursor:pointer;
+}
+@media screen and (min-width:1400px) {
+    .main-page-about-us-img{
+        width: 150px;
+        bottom:-100px;
+    }
+}
