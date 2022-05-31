@@ -19,7 +19,6 @@ export default function LittleCircles(props) {
     hearth,
     safehouse,
     ideas,
-
     transport,
     uniform,
   ];
@@ -28,10 +27,9 @@ export default function LittleCircles(props) {
     "financialSupport",
     "government",
     "medicalSupport",
-    "transport",
-    "socialSupport",
     "selfcare",
-
+    "socialSupport",
+    "transport",
     "job",
   ];
   var div = 360 / 8;

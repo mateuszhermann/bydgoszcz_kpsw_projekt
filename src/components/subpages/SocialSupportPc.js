@@ -1,5 +1,8 @@
 import React from "react";
+import HeaderPc from "../PcHeader";
 
 export default function SocialSupportPc() {
-  return <div>SocialSupportPc</div>;
+  return (
+    <HeaderPc/>
+  )
 }

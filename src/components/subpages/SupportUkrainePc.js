@@ -1,5 +1,8 @@
 import React from "react";
+import PcHeader from "../PcHeader";
 
-export default function SupportUkrainePc() {
-  return <div>SupportUkrainePc</div>;
+export default function SupportUkrainePC() {
+  return (
+  <PcHeader />
+  )
 }

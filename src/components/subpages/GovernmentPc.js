@@ -1,8 +1,8 @@
 import React from "react";
+import HeaderPc from "../PcHeader";
 
 export default function GovernmentPc() {
   return (
-    //to be fixed
-    <div>GovernmentPc</div>
+    <HeaderPc/>
   );
 }

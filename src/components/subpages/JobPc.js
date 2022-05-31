@@ -1,5 +1,8 @@
 import React from "react";
+import HeaderPc from "../PcHeader";
 
 export default function JobPc() {
-  return <div>JobPc</div>;
+  return (
+    <HeaderPc/>
+  )
 }

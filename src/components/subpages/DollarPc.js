@@ -1,5 +1,9 @@
 import React from "react";
+import HeaderPc from "../PcHeader";
 
 export default function DollarPc() {
-  return <div>DollarPc</div>;
+  return (
+    <HeaderPc/>
+  )
+
 }

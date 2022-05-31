@@ -1,5 +1,8 @@
 import React from "react";
-
+import PcHeader from "../PcHeader";
 export default function TransportPc() {
-  return <div>TransportPc</div>;
+  return ( 
+     <PcHeader/>
+
+     )
 }
