@@ -20,6 +20,10 @@ import MedicalSupportPc from "./components/subpages/MedicalSupportPc";
 import SupportUkraine from "./components/subpages/SupportUkraine";
 import SupportUkrainePc from "./components/subpages/SupportUkrainePc";
 import About from "./components/subpages/About";
+import HelpfullApps from "./components/subpages/HelpfullApps";
+import ContactUsPc from "./components/subpages/ContactsUs";
+import InfoPc from "./components/subpages/InfoPc";
+import ImportantContacts from "./components/subpages/ImportantContacts";
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -61,6 +65,10 @@ function App() {
     job: <JobPc />,
     selfcare: <SelfcarePc />,
     transport: <TransportPc />,
+    HelpfullApps: <HelpfullApps />,
+    ContactUsPc: <ContactUsPc/>,
+    InfoPc: <InfoPc/>,
+    ImportantContacts: <ImportantContacts/>,
   };
   const typeOfScreen = isMobile ? mobile : pc;
   return (
@@ -75,6 +83,10 @@ function App() {
         <Route path="/transport" element={typeOfScreen.transport} />
         <Route path="/medicalSupport" element={typeOfScreen.medicalSupport} />
         <Route path="/about" element={typeOfScreen.aboutUs} />
+        <Route path="/helpfullapps" element={typeOfScreen.HelpfullApps} />
+        <Route path="/contactuspc" element={typeOfScreen.ContactUsPc}/>
+        <Route path="/infopc" element={typeOfScreen.InfoPc}/>
+        <Route path="/importantcontacts" element={typeOfScreen.ImportantContacts}/>
         {["/home", "/"].map((path, index) => (
           <Route path={path} element={typeOfScreen.home} key={index} />
         ))}

@@ -5,7 +5,9 @@ function NavItemPc(props) {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
+        textDecoration:"none",
+        color: "black",
         
         
     }
