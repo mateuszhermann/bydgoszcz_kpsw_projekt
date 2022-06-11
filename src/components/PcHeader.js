@@ -11,11 +11,11 @@ function HeaderPc() {
         <>
             <div className={styles.HeaderPc}>
               <ul className={styles.ItemList}>
-                <NavItemPc a href={"HelpfullApps"} src={apps} alt="item">Helpfull apps</NavItemPc>
-                <NavItemPc a href={"ContactUsPc"} src={kontakt} alt="item">Contact Us</NavItemPc>
+                <NavItemPc href={"HelpfullApps"} src={apps} alt="item">Helpfull apps</NavItemPc>
+                <NavItemPc href={"ContactUsPc"} src={kontakt} alt="item">Contact Us</NavItemPc>
                 <LogoItem/>
-                <NavItemPc a href={"InfoPc"} src={info} alt="item">Info</NavItemPc>
-                <NavItemPc a href={"ImportantContacts"} src={phone} alt="item">Important Contacts</NavItemPc>
+                <NavItemPc href={"InfoPc"} src={info} alt="item">Info</NavItemPc>
+                <NavItemPc href={"ImportantContacts"} src={phone} alt="item">Important Contacts</NavItemPc>
               </ul>
             </div>
         </>

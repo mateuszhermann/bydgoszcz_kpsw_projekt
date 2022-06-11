@@ -1,5 +1,6 @@
 
 import style from "./NavItemPc.module.css";
+import {Link} from "react-router-dom";
 function NavItemPc(props) {
     let styles={
         display: "flex",
@@ -14,10 +15,10 @@ function NavItemPc(props) {
 
     return (<li>
                 <div >
-                   <a href={props.href } style={styles}>
+                   <Link to={props.href } style={styles}>
                         <img src={props.src} style={{width: 120}} className={style.itemImg} alt={props.alt}/>
                         {props.children}
-                    </a>
+                    </Link>
                 </div>
             </li>)
 }
