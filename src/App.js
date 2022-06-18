@@ -83,7 +83,7 @@ function App() {
         <Route path="/transport" element={typeOfScreen.transport} />
         <Route path="/medicalSupport" element={typeOfScreen.medicalSupport} />
         <Route path="/about" element={typeOfScreen.aboutUs} />
-        <Route path="/helpfullapps" element={typeOfScreen.HelpfullApps} />
+        <Route path="/HelpfullApps" element={typeOfScreen.HelpfullApps} />
         <Route path="/contactuspc" element={typeOfScreen.ContactUsPc}/>
         <Route path="/infopc" element={typeOfScreen.InfoPc}/>
         <Route path="/importantcontacts" element={typeOfScreen.ImportantContacts}/>

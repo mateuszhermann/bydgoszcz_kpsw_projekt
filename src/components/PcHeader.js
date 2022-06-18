@@ -6,6 +6,7 @@ import info from '../assets/home_images/ikonki/info.svg'
 import phone from '../assets/home_images/ikonki/helpphone.svg'
 import LogoItem from './LogoItem';
 
+
 function HeaderPc() {
     return(
         <>
