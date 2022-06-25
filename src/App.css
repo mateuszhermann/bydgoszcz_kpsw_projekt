@@ -1,17 +1,21 @@
 .App{
    margin: 0; 
   padding: 0;
-  background-image: url("http://www.nalewajk.pl/wp-content/uploads/2017/01/bydgoszcz-940x625.png");
+  background-image: url("../src/assets/home_images/tło.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   max-width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
   align-items: center;
-  
+
+  &--white {
+    background-color: white;
+  }
+
 }
 .fade-enter{
   opacity: 0;

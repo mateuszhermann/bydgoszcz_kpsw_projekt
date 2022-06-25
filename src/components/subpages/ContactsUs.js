@@ -7,7 +7,7 @@ export default function ContactUs() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={contact} alt="item">Contacts Us</Icon>
+      <Icon src={contact} alt="item">Skontaktuj sie z nami</Icon>
     </>
 
 

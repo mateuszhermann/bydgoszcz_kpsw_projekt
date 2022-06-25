@@ -7,7 +7,7 @@ export default function InfoPc() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={info} alt="item">Info</Icon>
+      <Icon src={info} alt="item">Informacje</Icon>
     </>
 
   )

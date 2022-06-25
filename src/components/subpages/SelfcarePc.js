@@ -7,7 +7,7 @@ export default function SelfcarePc() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={selfcare} alt="item">Self Care</Icon>
+      <Icon src={selfcare} alt="item">Rozwój osobisty</Icon>
     
     </>
 

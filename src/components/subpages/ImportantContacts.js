@@ -7,7 +7,7 @@ export default function ImportantContacts() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={important} alt="item">Important Contacts</Icon>
+      <Icon src={important} alt="item">Wazne kontakty</Icon>
     </>
 
   )

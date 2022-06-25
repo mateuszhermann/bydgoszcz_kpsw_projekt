@@ -7,7 +7,7 @@ export default function SocialSupportPc() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={socialsupport} alt="item"> Social Support</Icon>
+      <Icon src={socialsupport} alt="item">Pomoc socjalna</Icon>
     </>
 
   )

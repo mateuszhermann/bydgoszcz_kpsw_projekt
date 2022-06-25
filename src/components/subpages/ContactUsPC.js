@@ -7,7 +7,7 @@ export default function ContactUsPc() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={contact} alt="item"></Icon>
+      <Icon src={contact} alt="item">Skontaktuj się z nami</Icon>
     </>
 
   )

@@ -8,7 +8,7 @@ export default function DollarPc() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={financial} alt="item">FInacial Support </Icon>
+      <Icon src={financial} alt="item">Pomoc finansowa</Icon>
     </> 
   )
 

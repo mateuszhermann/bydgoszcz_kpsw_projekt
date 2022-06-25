@@ -6,7 +6,7 @@ export default function JobPc() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={job} alt="item">Job</Icon>
+      <Icon src={job} alt="item">Praca</Icon>
     </>
   )
     

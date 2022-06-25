@@ -7,7 +7,7 @@ export default function MedicalSupportPc() {
   return (
     <>
         <HeaderPc/>
-        <Icon src={medical} alt="item">Medical Support</Icon>
+        <Icon src={medical} alt="item">Pomoc medyczna</Icon>
     </>
 
   )

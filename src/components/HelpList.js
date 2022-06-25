@@ -11,14 +11,14 @@ import uniform from "../assets/home_images/ikonki/praca.svg";
 import { Link } from "react-router-dom";
 export default function HelpList() {
   const listItems = [
-    { avatar: government, text: "tax help?", path: "/government" },
-    { avatar: dollar, text: "Money providement", path: "/financialSupport" },
-    { avatar: safehouse, text: "Social support", path: "/socialSupport" },
-    { avatar: flags, text: "support ukraine", path: "/supportUkraine" },
-    { avatar: uniform, text: "find job", path: "/job" },
-    { avatar: ideas, text: "selfcare support", path: "/selfcare" },
-    { avatar: transport, text: "transport support", path: "/transport" },
-    { avatar: hearth, text: "Medical support", path: "/medicalSupport" },
+    { avatar: government, text: "Urzędy", path: "/government" },
+    { avatar: dollar, text: "Pomoc finansowa", path: "/financialSupport" },
+    { avatar: safehouse, text: "Pomoc socjalna", path: "/socialSupport" },
+    { avatar: flags, text: "Pomoc dla Ukrainy", path: "/supportUkraine" },
+    { avatar: uniform, text: "Praca", path: "/job" },
+    { avatar: ideas, text: "Rozwój osobisty", path: "/selfcare" },
+    { avatar: transport, text: "Transport", path: "/transport" },
+    { avatar: hearth, text: "Pomoc medyczna", path: "/medicalSupport" },
   ];
 
   return (

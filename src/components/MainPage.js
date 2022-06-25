@@ -39,11 +39,10 @@ export default function MainPage(props) {
   return (
     <>
       <HeaderPc />
-      <Card tittle="Lorem ipsum">
-        Officia dolore et aliqua officia ex sint tempor culpa nostrud consequat
-        anim nostrud consequat. Consectetur est sunt enim ut nulla. Velit
-        laborum et in culpa consectetur nulla fugiat sunt dolore est. Aute anim
-        anim fugiat ut elit adipisicing ad ut amet cillum sint nulla excepteur.
+      <Card tittle="BYDE">
+      BYDE to strona internetowa, która zawiera wszystkie niezbędne informacje o Bydgoszczy 
+i znajdujących się w niej instytucjach. Z jej pomocą każdy bez problemu odnajdzie potrzebne dla siebie wskazówki, bez konieczności długiego wyszukiwania. 
+
       </Card>
 
       <div ref={divEl} id={styles.parentdiv} style={styles}>

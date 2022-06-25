@@ -7,7 +7,7 @@ export default function SupportUkrainePC() {
   return (
     <>
       <PcHeader />
-      <Icon src={support} alt="item">Support Ukraine</Icon>
+      <Icon src={support} alt="item">Pomoc dla Ukrainy</Icon>
     </>
 
   )

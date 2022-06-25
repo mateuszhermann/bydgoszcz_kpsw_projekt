@@ -6,13 +6,13 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Link to="/contact" className={styles.header_link}>
-        Contact us
+        Skontaktu się z nami
       </Link>
       <Link to="/" className={`${styles.header_link} ${styles.header__logo}`}>
         <img alt="logo" src={Logo} />
       </Link>
       <Link to="/info" className={styles.header_link}>
-        Info
+        Informacje
       </Link>
     </header>
   );

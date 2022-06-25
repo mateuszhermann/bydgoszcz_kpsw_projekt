@@ -9,9 +9,8 @@ export default function Hero() {
       {/* <img className={styles["hero__main-img"]} src={backgroundImage} alt="" /> */}
       <div className={styles.hero__text}>
         <p>
-          <strong>Byde</strong> is a site made to support Ukraine. The point of
-          it is to provide as much helpfull info as it is possible. We cand
-          provide info about:
+          <strong>Byde</strong> to strona internetowa, która zawiera wszystkie niezbędne informacje o Bydgoszczy i znajdujących się w niej instytucjach.
+           Z jej pomocą każdy bez problemu odnajdzie potrzebne dla siebie wskazówki, bez konieczności długiego wyszukiwania.
         </p>
         <Link to="/about">
           <img src={aboutUs} alt="aboutUs" className={styles["about-us"]} />

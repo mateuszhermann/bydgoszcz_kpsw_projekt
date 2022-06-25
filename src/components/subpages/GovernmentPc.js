@@ -7,7 +7,7 @@ export default function GovernmentPc() {
   return (
     <>
       <HeaderPc/>
-      <Icon src={goverment} alt="item">Goverment</Icon>
+      <Icon src={goverment} alt="item">Urzędy</Icon>
     </>
 
   );
