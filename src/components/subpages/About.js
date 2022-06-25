@@ -3,30 +3,20 @@ import MobileHoc from "../../hoc/MobileHoc";
 // import Hero from '../Hero'
 import styles from "../Hero.module.css";
 import "./About.css";
-import aboutUs from "../../assets/home_images/ikonki/aboutus.svg";
-import aboutUsImg from "../../assets/home_images/ikonki/aboutUsImg.png";
+import aboutUsImg from "../../assets/home_images/aboutUs.png";
 
 export default function About() {
   return (
     <MobileHoc>
       {" "}
       <div className={styles.hero}>
-        {/* <img className={styles["hero__main-img"]} src={backgroundImage} alt="" /> */}
         <div className={`${styles.hero__text} ${styles["hero__text-active"]}`}>
-          <img
-            src={aboutUs}
-            alt="aboutUs"
-            className={`${styles["img-active"]} ${styles["about-us"]}`}
-          />
           <p>
-            <strong id={styles.pink}>We are group</strong> of students From
-            Poland, Bydgoszcz
+            <strong id={styles.pink}> Jesteśmy grupą studentów </strong> Informatyki na Kujawsko-Pomorskiej Szkole Wyższej. Celem naszego projektu „BYDE” jest pomoc w odnalezieniu się w naszym mieście –
+             poprzez m.in. wskazanie jego najważniejszych punktów. Wierzymy, że wspólnymi siłami uda się nam osiągnąć ten cel.
           </p>
           <img src={aboutUsImg} alt="" className="about-us-img" />
         </div>
-        {/* <div className={styles.flag}>
-      <img src={flag} alt="flag"></img>
-    </div> */}
       </div>
     </MobileHoc>
   );

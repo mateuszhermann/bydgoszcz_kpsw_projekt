@@ -21,9 +21,11 @@ import SupportUkraine from "./components/subpages/SupportUkraine";
 import SupportUkrainePc from "./components/subpages/SupportUkrainePc";
 import About from "./components/subpages/About";
 import HelpfullApps from "./components/subpages/HelpfullApps";
-import ContactUsPc from "./components/subpages/ContactsUs";
+import ContactUsPc from "./components/subpages/ContactUsPC";
 import InfoPc from "./components/subpages/InfoPc";
 import ImportantContacts from "./components/subpages/ImportantContacts";
+import ContactUs from "./components/subpages/ContactsUs";
+import Info from "./components/subpages/Info";
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -54,6 +56,8 @@ function App() {
     selfcare: <Selfcare />,
     transport: <Transport />,
     aboutUs: <About />,
+    ContactUs: <ContactUs />,
+    Info: <Info />
   };
   const pc = {
     home: <MainPage windowWidth={width} />,
@@ -87,6 +91,8 @@ function App() {
         <Route path="/contactuspc" element={typeOfScreen.ContactUsPc}/>
         <Route path="/infopc" element={typeOfScreen.InfoPc}/>
         <Route path="/importantcontacts" element={typeOfScreen.ImportantContacts}/>
+        <Route path="/contact" element={typeOfScreen.ContactUs}/>
+        <Route path="/info" element={typeOfScreen.Info}/>
         {["/home", "/"].map((path, index) => (
           <Route path={path} element={typeOfScreen.home} key={index} />
         ))}

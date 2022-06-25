@@ -14,7 +14,7 @@ function HeaderPc() {
               <ul className={styles.ItemList}>
                 <NavItemPc href={"HelpfullApps"} src={apps} alt="item">Pomocne aplikacje</NavItemPc>
                 <NavItemPc href={"ContactUsPc"} src={kontakt} alt="item">Kontakt</NavItemPc>
-                <LogoItem/>
+                <LogoItem href="/"/>
                 <NavItemPc href={"InfoPc"} src={info} alt="item">Informacje</NavItemPc>
                 <NavItemPc href={"ImportantContacts"} src={phone} alt="item">Wazne kontakty</NavItemPc>
               </ul>
